@@ -1,0 +1,47 @@
+name: seeyoulaternavigator
+description: A Flutter project for auto_route usage.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.4 <3.0.0"
+
+dependencies:
+  auto_route: ^5.0.4
+  chopper: ^5.1.0
+  cupertino_icons: ^1.0.2
+  curved_navigation_bar: ^1.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  jiffy: ^5.0.0
+  json_serializable: ^6.5.4
+  sliding_up_panel: ^2.0.0+1
+
+dev_dependencies:
+  auto_route_generator: ^5.0.3
+  build_runner: ^2.3.2
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+
+  fonts:
+    - family: AppIcons
+      fonts:
+        - asset: assets/fonts/AppIcons.ttf
+    - family: Starjedi
+      fonts:
+        - asset: assets/fonts/Starjedi.ttf
+    - family: Aniron
+      fonts:
+        - asset: assets/fonts/Aniron.ttf
+    - family: Ringbearer
+      fonts:
+        - asset: assets/fonts/Ringbearer.ttf
