@@ -1,4 +1,4 @@
-# seeyoulaternavigator
+# Where 2 Go?
 
 This is a demo project for Navigator 2.0 with AutoRoute.
 
