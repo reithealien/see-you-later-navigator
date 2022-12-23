@@ -38,6 +38,18 @@ import 'package:seeyoulaternavigator/presentation/pages/menu/star_wars/star_wars
                 AutoRoute(path: ':id', page: StarWarsMovieDetailScreen),
               ],
             ),
+
+            // This is the same as the above route, but with a inital usage.
+            /* AutoRoute(
+              path: 'starwars',
+              name: 'StarWarsRouter',
+              page: EmptyRouterPage,
+              children: [
+                AutoRoute(initial: true, path: '/movies', page: StarWarsMoviesScreen),
+                AutoRoute(path: '/movies/:id', page: StarWarsMovieDetailScreen),
+              ],
+            ), */
+
             AutoRoute(
               path: 'lotr/movies',
               name: 'LotrRouter',
